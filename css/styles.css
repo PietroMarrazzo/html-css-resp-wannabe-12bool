@@ -16,6 +16,11 @@
   float: none;
 }
 
+.bg-gray {
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
 /* TYPING */
 h1,
 h2,
