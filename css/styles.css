@@ -6,20 +6,37 @@
   font-family: sans-serif;
 }
 
+/* clearfix */
 .container::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.no-float {
-  float: none;
-}
 
+/* backgrounds */
 .bg-gray {
   width: 100%;
   background-color: #f9f9f9;
 }
+
+/* immagini */
+img {
+   height: 200px;
+ }
+
+.blue {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  height: 250px;
+}
+
+/* float */
+ #header > .left {
+   width: 50%;
+   float: left;
+ }
 
 /* TYPING */
 h1,
@@ -30,20 +47,14 @@ p {
   margin: 30px;
 }
 
+h2 {
+  padding-top: 15px;
+}
 
 /* box demo */
-.box {
+/* .box {
   text-align: center;
   background-color: #00af9c;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-img {
-   height: 200px;
- }
-
-#header > .left {
-  width: 50%;
-  float: left;
-}
+} */
