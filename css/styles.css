@@ -6,6 +6,15 @@
   font-family: sans-serif;
 }
 
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.no-float {
+  float: none;
+}
 
 /* TYPING */
 h1,
@@ -23,4 +32,13 @@ p {
   background-color: #00af9c;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+img {
+   height: 200px;
+ }
+
+#header > .left {
+  width: 50%;
+  float: left;
 }
