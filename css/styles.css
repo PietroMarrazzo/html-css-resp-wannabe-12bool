@@ -1,0 +1,26 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+/* TYPING */
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+  margin: 30px;
+}
+
+
+/* box demo */
+.box {
+  text-align: center;
+  background-color: #00af9c;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
